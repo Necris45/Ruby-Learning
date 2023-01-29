@@ -9,15 +9,23 @@ gem 'image_processing'
 gem 'mini_magick'
 gem 'bcrypt'
 gem 'active_storage_validations'
+gem 'devise'
+gem 'activeadmin' # , github: 'activeadmin/activeadmin', branch: 'master'
+gem 'mocha'
+gem 'minitest-rg'
+gem 'rails-controller-testing'
+gem 'rubocop'
+gem 'json'
+# gem 'simple_form'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', '~> 1.4'
 # Use Puma as the app server
-gem 'puma', '~> 3.11'
+gem 'puma'
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0.2'
-gem 'uglifier', '~> 2.5.3'
-gem 'coffee-rails', '~> 5.0.0'
-gem 'jquery-rails', '~> 4.5.1'
+gem 'sass-rails'
+gem 'uglifier'
+gem 'coffee-rails'
+gem 'jquery-rails'
 gem 'bootstrap-sass'
 gem 'faker'
 gem 'slim'
@@ -25,12 +33,12 @@ gem 'will_paginate'
 gem 'bootstrap-will_paginate'
 
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
-gem 'webpacker', '~> 4.0'
+gem 'webpacker'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
-gem 'turbolinks', '~> 5'
+gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '~> 2.7'
-gem 'sdoc', '~> 0.4.0', group: :doc
+gem 'jbuilder'
+gem 'sdoc', group: :doc
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
@@ -52,8 +60,8 @@ group :development do
   gem 'web-console', '>= 3.3.0'
   gem 'listen', '>= 3.0.5', '< 3.2'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
-  gem 'spring'
-  gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'spring', '~> 4.1'
+  gem 'spring-watcher-listen'
 end
 
 group :test do
